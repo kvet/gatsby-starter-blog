@@ -4,3 +4,15 @@
 
 [build.environment]
   NODE_VERSION = "8.9.0"
+
+[[redirects]]
+  from = "/check-api"
+  to = "https://fivetran.com/check-api"
+  status = 307
+  force = true
+
+[[redirects]]
+  from = "/check-static/*"
+  to = "https://fivetran.com/check-static"
+  status = 200
+  force = true
